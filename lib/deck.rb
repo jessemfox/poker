@@ -38,6 +38,7 @@ class Deck
 
   def shuffle
     @cards.shuffle
+    self
   end
 
 end
